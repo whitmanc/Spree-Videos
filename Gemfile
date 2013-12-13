@@ -1,6 +1,8 @@
 source 'http://rubygems.org'
 gemspec
 
+gem 'nokogiri', '~> 1.6.0'
+
 group :test do
   if RUBY_PLATFORM.downcase.include? "darwin"
     gem 'guard-rspec'
